@@ -17,5 +17,12 @@ int main() {
         return 1;
     }
 
+    char buffer[255];
+    fscanf(file, "%s", buffer);
+
+    printf("Leido del archivo: %s\n", buffer);
+
+    fclose(file);
+
     return 0;
 }
