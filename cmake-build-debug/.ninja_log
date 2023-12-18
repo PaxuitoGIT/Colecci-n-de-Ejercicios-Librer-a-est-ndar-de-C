@@ -1,3 +1,9 @@
 # ninja log v5
 2	82	7246280595431232	CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir/main.c.obj	dcb9f031f212a870
-83	179	7246280596289211	Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe	7c6f8e0825a626c2
+3	70	7246283209491166	CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir/cadenas.c.obj	592ef3f12422a833
+0	72	7246284194871707	CMakeFiles/Ejercicio1.dir/main.c.obj	b143c3d76de8ad08
+73	162	7246284195726623	Ejercicio1.exe	4786e9ec95e63866
+0	66	7246284339087594	CMakeFiles/Ejercicio2.dir/cadenas.c.obj	d78ddb37566671de
+66	151	7246284339895365	Ejercicio2.exe	8f3e93651ae5b2df
+3	72	7246284844847009	CMakeFiles/Ejercicio2.dir/cadenas.c.obj	d78ddb37566671de
+73	161	7246284845687074	Ejercicio2.exe	8f3e93651ae5b2df

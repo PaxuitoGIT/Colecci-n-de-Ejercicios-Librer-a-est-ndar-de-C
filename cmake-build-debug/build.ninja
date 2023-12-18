@@ -41,43 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/aads7/OneDrive/Documentos/GitHub/Colecci-n-de-Ejercicios-Librer-a-est-ndar-de-C/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C
+# Object build statements for EXECUTABLE target Ejercicio1
 
 
 #############################################
-# Order-only phony target for Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C
+# Order-only phony target for Ejercicio1
 
-build cmake_object_order_depends_target_Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C: phony || CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir
+build cmake_object_order_depends_target_Ejercicio1: phony || CMakeFiles/Ejercicio1.dir
 
-build CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir/main.c.obj: C_COMPILER__Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C_unscanned_Debug C$:/Users/aads7/OneDrive/Documentos/GitHub/Colecci-n-de-Ejercicios-Librer-a-est-ndar-de-C/main.c || cmake_object_order_depends_target_Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C
-  DEP_FILE = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir\main.c.obj.d
+build CMakeFiles/Ejercicio1.dir/main.c.obj: C_COMPILER__Ejercicio1_unscanned_Debug C$:/Users/aads7/OneDrive/Documentos/GitHub/Colecci-n-de-Ejercicios-Librer-a-est-ndar-de-C/main.c || cmake_object_order_depends_target_Ejercicio1
+  DEP_FILE = CMakeFiles\Ejercicio1.dir\main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir
-
-build CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir/cadenas.c.obj: C_COMPILER__Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C_unscanned_Debug C$:/Users/aads7/OneDrive/Documentos/GitHub/Colecci-n-de-Ejercicios-Librer-a-est-ndar-de-C/cadenas.c || cmake_object_order_depends_target_Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C
-  DEP_FILE = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir\cadenas.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir
-  OBJECT_FILE_DIR = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir
+  OBJECT_DIR = CMakeFiles\Ejercicio1.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio1.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C
+# Link build statements for EXECUTABLE target Ejercicio1
 
 
 #############################################
-# Link the executable Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe
+# Link the executable Ejercicio1.exe
 
-build Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe: C_EXECUTABLE_LINKER__Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C_Debug CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir/main.c.obj CMakeFiles/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir/cadenas.c.obj
+build Ejercicio1.exe: C_EXECUTABLE_LINKER__Ejercicio1_Debug CMakeFiles/Ejercicio1.dir/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dir
+  OBJECT_DIR = CMakeFiles\Ejercicio1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe
-  TARGET_IMPLIB = libColecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.dll.a
-  TARGET_PDB = Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe.dbg
+  TARGET_FILE = Ejercicio1.exe
+  TARGET_IMPLIB = libEjercicio1.dll.a
+  TARGET_PDB = Ejercicio1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Ejercicio2
+
+
+#############################################
+# Order-only phony target for Ejercicio2
+
+build cmake_object_order_depends_target_Ejercicio2: phony || CMakeFiles/Ejercicio2.dir
+
+build CMakeFiles/Ejercicio2.dir/cadenas.c.obj: C_COMPILER__Ejercicio2_unscanned_Debug C$:/Users/aads7/OneDrive/Documentos/GitHub/Colecci-n-de-Ejercicios-Librer-a-est-ndar-de-C/cadenas.c || cmake_object_order_depends_target_Ejercicio2
+  DEP_FILE = CMakeFiles\Ejercicio2.dir\cadenas.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Ejercicio2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ejercicio2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Ejercicio2
+
+
+#############################################
+# Link the executable Ejercicio2.exe
+
+build Ejercicio2.exe: C_EXECUTABLE_LINKER__Ejercicio2_Debug CMakeFiles/Ejercicio2.dir/cadenas.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Ejercicio2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Ejercicio2.exe
+  TARGET_IMPLIB = libEjercicio2.dll.a
+  TARGET_PDB = Ejercicio2.exe.dbg
 
 
 #############################################
@@ -105,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C: phony Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe
+build Ejercicio1: phony Ejercicio1.exe
+
+build Ejercicio2: phony Ejercicio2.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +144,7 @@ build Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C: phony Colecci_n_de_Ejercic
 #############################################
 # Folder: C:/Users/aads7/OneDrive/Documentos/GitHub/Colecci-n-de-Ejercicios-Librer-a-est-ndar-de-C/cmake-build-debug
 
-build all: phony Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe
+build all: phony Ejercicio1.exe Ejercicio2.exe
 
 # =============================================================================
 # Built-in targets

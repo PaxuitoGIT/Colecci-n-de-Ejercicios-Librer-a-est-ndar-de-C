@@ -11,7 +11,8 @@
   </component>
   <component name="CMakeRunConfigurationManager">
     <generated>
-      <config projectName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" targetName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" />
+      <config projectName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" targetName="Ejercicio2" />
+      <config projectName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" targetName="Ejercicio1" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -20,10 +21,21 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="numero aleatorio">
-      <change afterPath="$PROJECT_DIR$/cadenas.c" afterDir="false" />
+    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="nombramos cadenas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cadenas.c" beforeDir="false" afterPath="$PROJECT_DIR$/cadenas.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8929513279f61646bfcc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-18T18-42-04-0520.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C-Debug-388ecad04450db1cc4c3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +68,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "CMake Application.Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.executor": "Run",
+    "CMake Application.Ejercicio1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -75,17 +88,26 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="CMake Application.Ejercicio2">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" TARGET_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" RUN_TARGET_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C">
+    <configuration name="Ejercicio1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" TARGET_NAME="Ejercicio1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" RUN_TARGET_NAME="Ejercicio1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" TARGET_NAME="Ejercicio2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" RUN_TARGET_NAME="Ejercicio2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Ejercicio1" />
+      <item itemvalue="CMake Application.Ejercicio2" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -97,7 +119,7 @@
       <updated>1702923518604</updated>
       <workItem from="1702923521659" duration="154000" />
       <workItem from="1702924139380" duration="152000" />
-      <workItem from="1702924299248" duration="623000" />
+      <workItem from="1702924299248" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="declarar numero negativo">
       <option name="closed" value="true" />
@@ -123,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702924869787</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nombramos cadenas">
+      <option name="closed" value="true" />
+      <created>1702925033003</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925033003</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +168,7 @@
     <MESSAGE value="declarar numero negativo" />
     <MESSAGE value="obtener valor absoluto" />
     <MESSAGE value="numero aleatorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="numero aleatorio" />
+    <MESSAGE value="nombramos cadenas" />
+    <option name="LAST_COMMIT_MESSAGE" value="nombramos cadenas" />
   </component>
 </project>

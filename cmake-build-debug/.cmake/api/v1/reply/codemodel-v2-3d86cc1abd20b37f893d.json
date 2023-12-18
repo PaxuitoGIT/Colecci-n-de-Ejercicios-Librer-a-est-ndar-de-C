@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -38,9 +40,16 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C-Debug-388ecad04450db1cc4c3.json",
-					"name" : "Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C",
+					"id" : "Ejercicio1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio1-Debug-6cab8523e07e04d86d6e.json",
+					"name" : "Ejercicio1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio2-Debug-8d11a53357226dd9d214.json",
+					"name" : "Ejercicio2",
 					"projectIndex" : 0
 				}
 			]
