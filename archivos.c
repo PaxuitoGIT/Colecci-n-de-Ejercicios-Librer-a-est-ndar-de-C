@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    FILE *file = fopen("archivo.txt", "r");
+    FILE *file = fopen("file.txt", "w");
     if (file == NULL) {
         printf("No se pudo abrir el archivo\n");
         return 1;
@@ -11,7 +11,7 @@ int main() {
 
     fclose(file);
 
-    file = fopen("archivo.txt", "r");
+    file = fopen("file.txt", "r");
     if (file == NULL) {
         printf("No se pudo abrir el archivo\n");
         return 1;

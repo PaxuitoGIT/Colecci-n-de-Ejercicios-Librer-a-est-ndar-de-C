@@ -22,10 +22,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="fix cadenas">
-      <change afterPath="$PROJECT_DIR$/archivos.c" afterDir="false" />
+    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="escanear y cerrar despues">
+      <change afterPath="$PROJECT_DIR$/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Ejercicio3.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Ejercicio3.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ClangdSettings">
+    <option name="clangTidyViaClangd" value="false" />
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
@@ -63,6 +67,7 @@
     "CMake Application.Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.executor": "Run",
     "CMake Application.Ejercicio1.executor": "Run",
     "CMake Application.Ejercicio2.executor": "Run",
+    "CMake Application.Ejercicio3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -119,7 +124,7 @@
       <updated>1702923518604</updated>
       <workItem from="1702923521659" duration="154000" />
       <workItem from="1702924139380" duration="152000" />
-      <workItem from="1702924299248" duration="1356000" />
+      <workItem from="1702924299248" duration="2543000" />
     </task>
     <task id="LOCAL-00001" summary="declarar numero negativo">
       <option name="closed" value="true" />
@@ -177,7 +182,47 @@
       <option name="project" value="LOCAL" />
       <updated>1702925546487</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="intento abrir archivo">
+      <option name="closed" value="true" />
+      <created>1702925726271</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925726271</updated>
+    </task>
+    <task id="LOCAL-00009" summary="cerrar archivo">
+      <option name="closed" value="true" />
+      <created>1702925776794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925776794</updated>
+    </task>
+    <task id="LOCAL-00010" summary="escribir archivo">
+      <option name="closed" value="true" />
+      <created>1702925884905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925884905</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Abrir de nuevo para leer">
+      <option name="closed" value="true" />
+      <created>1702925901914</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925901914</updated>
+    </task>
+    <task id="LOCAL-00012" summary="escanear y cerrar despues">
+      <option name="closed" value="true" />
+      <created>1702925983127</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925983127</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +241,11 @@
     <MESSAGE value="comparar cadenas" />
     <MESSAGE value="longitud cadena" />
     <MESSAGE value="fix cadenas" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix cadenas" />
+    <MESSAGE value="intento abrir archivo" />
+    <MESSAGE value="cerrar archivo" />
+    <MESSAGE value="escribir archivo" />
+    <MESSAGE value="Abrir de nuevo para leer" />
+    <MESSAGE value="escanear y cerrar despues" />
+    <option name="LAST_COMMIT_MESSAGE" value="escanear y cerrar despues" />
   </component>
 </project>
