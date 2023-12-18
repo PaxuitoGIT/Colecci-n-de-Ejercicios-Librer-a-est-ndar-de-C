@@ -20,8 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="numero aleatorio">
+      <change afterPath="$PROJECT_DIR$/cadenas.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +55,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "CMake Application.Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -62,6 +65,10 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "structure.view.defaults.are.configured": "true",
@@ -90,11 +97,47 @@
       <updated>1702923518604</updated>
       <workItem from="1702923521659" duration="154000" />
       <workItem from="1702924139380" duration="152000" />
-      <workItem from="1702924299248" duration="134000" />
+      <workItem from="1702924299248" duration="623000" />
     </task>
+    <task id="LOCAL-00001" summary="declarar numero negativo">
+      <option name="closed" value="true" />
+      <created>1702924464248</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702924464248</updated>
+    </task>
+    <task id="LOCAL-00002" summary="obtener valor absoluto">
+      <option name="closed" value="true" />
+      <created>1702924521211</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702924521211</updated>
+    </task>
+    <task id="LOCAL-00003" summary="numero aleatorio">
+      <option name="closed" value="true" />
+      <created>1702924869787</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702924869787</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="declarar numero negativo" />
+    <MESSAGE value="obtener valor absoluto" />
+    <MESSAGE value="numero aleatorio" />
+    <option name="LAST_COMMIT_MESSAGE" value="numero aleatorio" />
   </component>
 </project>
