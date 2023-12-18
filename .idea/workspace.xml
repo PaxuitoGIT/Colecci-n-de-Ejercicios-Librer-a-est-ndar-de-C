@@ -13,6 +13,7 @@
     <generated>
       <config projectName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" targetName="Ejercicio2" />
       <config projectName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" targetName="Ejercicio1" />
+      <config projectName="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" targetName="Ejercicio3" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -21,21 +22,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="nombramos cadenas">
+    <list default="true" id="98f7ad8d-0326-4cb7-8991-f247782eff01" name="Changes" comment="fix cadenas">
+      <change afterPath="$PROJECT_DIR$/archivos.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cadenas.c" beforeDir="false" afterPath="$PROJECT_DIR$/cadenas.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-8929513279f61646bfcc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-12-18T18-42-04-0520.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C-Debug-388ecad04450db1cc4c3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +41,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
@@ -69,6 +62,7 @@
   "keyToString": {
     "CMake Application.Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C.executor": "Run",
     "CMake Application.Ejercicio1.executor": "Run",
+    "CMake Application.Ejercicio2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -104,9 +98,15 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ejercicio3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" TARGET_NAME="Ejercicio3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Colecci_n_de_Ejercicios_Librer_a_est_ndar_de_C" RUN_TARGET_NAME="Ejercicio3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.Ejercicio1" />
       <item itemvalue="CMake Application.Ejercicio2" />
+      <item itemvalue="CMake Application.Ejercicio3" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -119,7 +119,7 @@
       <updated>1702923518604</updated>
       <workItem from="1702923521659" duration="154000" />
       <workItem from="1702924139380" duration="152000" />
-      <workItem from="1702924299248" duration="928000" />
+      <workItem from="1702924299248" duration="1356000" />
     </task>
     <task id="LOCAL-00001" summary="declarar numero negativo">
       <option name="closed" value="true" />
@@ -153,7 +153,31 @@
       <option name="project" value="LOCAL" />
       <updated>1702925033003</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="comparar cadenas">
+      <option name="closed" value="true" />
+      <created>1702925304108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925304108</updated>
+    </task>
+    <task id="LOCAL-00006" summary="longitud cadena">
+      <option name="closed" value="true" />
+      <created>1702925435388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925435388</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix cadenas">
+      <option name="closed" value="true" />
+      <created>1702925546487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1702925546487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +193,9 @@
     <MESSAGE value="obtener valor absoluto" />
     <MESSAGE value="numero aleatorio" />
     <MESSAGE value="nombramos cadenas" />
-    <option name="LAST_COMMIT_MESSAGE" value="nombramos cadenas" />
+    <MESSAGE value="comparar cadenas" />
+    <MESSAGE value="longitud cadena" />
+    <MESSAGE value="fix cadenas" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix cadenas" />
   </component>
 </project>

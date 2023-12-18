@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "Ejercicio2::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-Ejercicio2-Debug-8d11a53357226dd9d214.json",
 					"name" : "Ejercicio2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ejercicio3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ejercicio3-Debug-9703091480783c73db84.json",
+					"name" : "Ejercicio3",
 					"projectIndex" : 0
 				}
 			]

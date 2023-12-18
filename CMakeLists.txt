@@ -6,3 +6,4 @@ set(CMAKE_C_STANDARD 11)
 add_executable(Ejercicio1
         main.c)
 add_executable(Ejercicio2 cadenas.c)
+add_executable(Ejercicio3 archivos.c)
