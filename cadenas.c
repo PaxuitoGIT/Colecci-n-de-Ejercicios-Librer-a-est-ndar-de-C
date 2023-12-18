@@ -13,6 +13,12 @@ int main() {
         printf("Las cadenas son diferentes\n");
     }
 
+    char str[] = "Hola Mundo";
+
+    int lenght = strlen(str);
+
+    printf("La longitud de la cadena es %d\n", lenght);
+
     return 0;
 
     }
