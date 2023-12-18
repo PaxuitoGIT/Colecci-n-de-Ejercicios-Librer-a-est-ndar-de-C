@@ -15,9 +15,9 @@ int main() {
 
     char str[] = "Hola Mundo";
 
-    int lenght = strlen(str);
+    size_t lenght = strlen(str);
 
-    printf("La longitud de la cadena es %d\n", lenght);
+    printf("La longitud de la cadena es %zu\n", lenght);
 
     return 0;
 
