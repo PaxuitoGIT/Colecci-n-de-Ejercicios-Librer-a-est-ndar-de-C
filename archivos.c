@@ -7,6 +7,8 @@ int main() {
         return 1;
     }
 
+    fprintf(file, "Hola Mundo\n");
+
     fclose(file);
 
     return 0;
